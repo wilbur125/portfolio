@@ -8,7 +8,7 @@ const PORT  = process.env.PORT || 9000;
 app.use(express.static('client'));
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.sendFile(__dirname + '/client/contactForm.html');
 });
 
 app.listen(PORT, () => {
