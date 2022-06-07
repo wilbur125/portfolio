@@ -14,8 +14,9 @@
     <body>
         
         <div class="form-container">
-            <form class="contact-form">
+            <form id="contact-form">
                 <h2>CONTACT</h2>
+                <input type="hidden" name="contact_number">
                 <input type="text" id="name" placeholder="Your Name" required><br>
                 <input type="email" id="email" placeholder="Email" required><br>
                 <input type="text" id="subject" placeholder="Subject" required><br>
@@ -24,7 +25,7 @@
             </form>
         </div>
 
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script src="js/app.js" async defer></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="js/contactForm.js" async defer></script>
     </body>
 </html>
