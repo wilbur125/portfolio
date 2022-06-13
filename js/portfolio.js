@@ -7,28 +7,28 @@ let projects = [
         github: "https://github.com/wilbur125/tinyhouse-dev"
     },
     {
-        name: "Project 2",
+        name: "Entertainer Website",
         image: "./assets/images/thlogo-white.jpg",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae enim sequi rem nostrum repellat, accusantium laborum dignissimos delectus a inventore quas libero explicabo suscipit officia repudiandae? Error, nam velit!",
         url: "",
         github: "./assets/images/thlogo-white.jpg"
     },
     {
-        name: "Project 3",
+        name: "Restaurant Website",
         image: "./assets/images/thlogo-white.jpg",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae enim sequi rem nostrum repellat, accusantium laborum dignissimos delectus a inventore quas libero explicabo suscipit officia repudiandae? Error, nam velit!",
         url: "",
         github: ""
     },
     {
-        name: "Project 4",
+        name: "Vent",
         image: "./assets/images/thlogo-white.jpg",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae enim sequi rem nostrum repellat, accusantium laborum dignissimos delectus a inventore quas libero explicabo suscipit officia repudiandae? Error, nam velit!",
         url: "",
         github: ""
     },
     {
-        name: "Project 5",
+        name: "Workout Tracker",
         image: "./assets/images/thlogo-white.jpg",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae enim sequi rem nostrum repellat, accusantium laborum dignissimos delectus a inventore quas libero explicabo suscipit officia repudiandae? Error, nam velit!",
         url: "",
