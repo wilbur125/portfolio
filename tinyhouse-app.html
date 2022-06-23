@@ -9,7 +9,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
+<body class="light-blue lighten-5">
   <nav id="nav" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Wilbur125</a>
       <ul class="right hide-on-med-and-down">
@@ -31,22 +31,45 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h2 class="orange-text">TinyHouse</h2>
+      <h1>TinyHouse App</h1>
       <!-- <br><br> -->
     </div>
   </div>
 
-
   <div class="container">
     <div class="section">
         <div class="row">
-              <div class="col">
-                <h4>
-                    About this Project
-                </h4>
-                <p>
-                    TinyHouse is a Full Stack React Masterclass offered by newline and utilizes React, Node, TypeScript, and GraphQL. It is a production ready application inspired by AirBnb. Users can be authenticated through Google OAuth, create listings, search for available listings around the world, schedule bookings, and send/receive payments via Stripe. 
-                </p>
+            <h4>About this Project</h4>
+                <div class="col m6 s12">
+                    <p>
+                        TinyHouse is a Full Stack React Masterclass offered by <a href="https://www.newline.co/tinyhouse" target="_blank">newline</a> and utilizes React, Node, TypeScript, and GraphQL. It is a production ready application inspired by AirBnb. Users can be authenticated through Google OAuth, create listings, search for available listings around the world, schedule bookings, and send/receive payments via Stripe. 
+                    </p>
+                </div>
+                <div class="col m6 s12 center">
+                    <div class="row">
+                        <div class="col m2 offset-m2 right-align hide-on-small-only">
+                            <img class="responsive-img" src="assets/images/tinyhouse-app/GitHub-Mark-32px.png">
+                        </div>
+                        <div class="col s12 m8 left-align">
+                            <a class="waves-effect waves-light btn" href="https://github.com/wilbur125/tinyhouse-dev" target="_blank">
+                                GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col m2 offset-m2 right-align hide-on-small-only">
+                            <img class="responsive-img" src="assets/images/tinyhouse-app/heroku-logo-stroke-gradient-transparent.png">
+                        </div>
+                        <div class="col s12 m8 left-align">
+                            <a class="waves-effect waves-light btn" href="https://wilbur125-tinyhouse.herokuapp.com/" target="_blank">
+                                TinyHouse Heroku App
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col">
                 <span class="badge grey darken-2 white-text left">React</span>
                 <span class="badge grey darken-2 white-text left">Node</span>
                 <span class="badge grey darken-2 white-text left">Typescript</span>
@@ -64,8 +87,17 @@
                 <span class="badge grey darken-2 white-text left">CSS</span>
                 <span class="badge grey darken-2 white-text left">Moment</span>
                 <span class="badge grey darken-2 white-text left">React Router Dom</span>
-              </div>
+            </div>
         </div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="assets/images/tinyhouse-app/landing-background.jpeg" style="transform: translate3d(-50%, 329.834px, 0px); opacity: 1;"></div>
+  </div>
+
+<div class="container">
+    <div class="section">
         <div class="row">
             <div class="col">
               <h4>
@@ -76,6 +108,16 @@
               </p>
             </div>
         </div>
+    </div>
+</div>
+
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/images/tinyhouse-app/listings-background.jpeg" style="transform: translate3d(-50%, 329.834px, 0px); opacity: 1;"></div>
+        </div>
+
+        <div class="container">
+            <div class="section">
         <div class="row">
             <div class="col">
             <h4>
@@ -86,26 +128,35 @@
             </p>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="assets/images/tinyhouse-app/user-background.png" style="transform: translate3d(-50%, 329.834px, 0px); opacity: 1;"></div>
+  </div>
+
+        <div class="container">
+            <div class="section">
         <div class="row">
             <div class="col">
             <h4>
-                Hosts
+                Hosts & Stripe
             </h4>
             <p>
-                Hosts must register with Stripe prior to adding a listing. If the host disconnects from Stripe then their listings will no longer be available for new bookings. 
+                Hosts must register with Stripe prior to adding a listing. If the host disconnects from Stripe then their listings will no longer be available for new bookings. Users that connect to Stripe will be connected to the TinyHouse Platform and receive payments directly from other users that book their listing.
             </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-            <h4>
-                Stripe
-            </h4>
-            <p>
-                Users that connect to Stripe will be connected to the TinyHouse Platform and receive payments directly from other users that book their listing.
-            </p>
-            </div>
-        </div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="assets/images/tinyhouse-app/stripe-background.png" style="transform: translate3d(-50%, 329.834px, 0px); opacity: 1;"></div>
+  </div>
+
+
+        <div class="container">
+            <div class="section">
         <div class="row">
             <div class="col">
             <h4>
@@ -116,6 +167,15 @@
             </p>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="assets/images/tinyhouse-app/booking-background.jpeg" style="transform: translate3d(-50%, 329.834px, 0px); opacity: 1;"></div>
+  </div>
+
+        <div class="container">
+            <div class="section">
         <div class="row">
             <div class="col">
             <h4>
