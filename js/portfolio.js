@@ -19,7 +19,7 @@ let projects = [
         id: "workout-tracker",
         name: "Workout Tracker",
         image: "./assets/images/portfolio/temp.png",
-        cardDescription: "Here is some text",
+        cardDescription: "This app gives users the ability to track resistance and cardio workouts. The Fitness Dashboard will show the user's daily workouts for the current week using bar charts and pie charts.",
         url: "#",
         github: "#"
     },
@@ -27,7 +27,7 @@ let projects = [
         id: "code-quiz",
         name: "Code Quiz",
         image: "./assets/images/portfolio/temp.png",
-        cardDescription: "Here is some text",
+        cardDescription: "This single page application is a code quiz to test the user's knowledge of essential coding concepts. The quiz is gamified and prompts users to enter their initials when the quiz is completed.",
         url: "https://wilbur125.github.io/Code_Quiz/",
         github: "https://github.com/wilbur125/Code_Quiz"
     }
@@ -39,14 +39,14 @@ portfolio.innerHTML = projects.map(function(project) {
     return (
         `
             <div class="col s12 m6 l3" >
-                <div class="card">
+                <div class="card" id="portfolio-card">
                     <a href="${project.id}.html">    
                         <div class="card-image">
                             <img class="responsive-img" src="${project.image}">
-                            <span class="card-title black-text">${project.name}</span>
+                            <span class="card-title black-text" id="portfolio-card__heading">${project.name}</span>
                         </div>
-                        <div class="card-content">
-                            <p>${project.cardDescription}</p>
+                        <div class="card-content black-text">
+                            <p id="portfolio-card__description">${project.cardDescription}</p>
                         </div>
                     </a>
                     <div class="card-action center-align">
