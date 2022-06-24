@@ -26,6 +26,14 @@ p {
   font-size: large;
 }
 
+#portfolio-card__heading {
+ font-weight: bold;
+}
+
+#portfolio-card__description {
+  font-size: medium;
+}
+
 .breadcrumb:before {
   color: #1976d2;
 }
