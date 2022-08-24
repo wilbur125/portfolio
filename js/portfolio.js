@@ -2,26 +2,26 @@ let projects = [
     {
         id: "tinyhouse-app",
         name: "TinyHouse App",
-        image: "./assets/images/portfolio/temp.png",
+        image: "./assets/images/portfolio/thlogowhite.jpeg",
         cardDescription: "TinyHouse is a Full Stack React Masterclass offered by newline and utilizes React, Node, TypeScript, and GraphQL. This project is inspired by the functionality of AirBnb.",
         url: "https://wilbur125-tinyhouse.herokuapp.com/",
         github: "https://github.com/wilbur125/tinyhouse-dev"
     },
     {
         id: "project-2",
-        name: "Project #2",
+        name: "Earthquake Tracker",
         image: "./assets/images/portfolio/temp.png",
-        cardDescription: "Here is some text",
-        url: "#",
-        github: "./assets/images/thlogo-white.jpg"
+        cardDescription: "The Earthquake Tracker shows the use the three most recent earthquakes as reported by USGS. Users can click on an event and it will display on Google Maps.",
+        url: "https://wilbur125.github.io/earthquake-tracker2/",
+        github: "https://github.com/wilbur125/earthquake-tracker2"
     },
     {
         id: "workout-tracker",
         name: "Workout Tracker",
         image: "./assets/images/portfolio/temp.png",
         cardDescription: "This app gives users the ability to track resistance and cardio workouts. The Fitness Dashboard will show the user's daily workouts for the current week using bar charts and pie charts.",
-        url: "#",
-        github: "#"
+        url: "https://w125-workout-tracker.herokuapp.com/",
+        github: "https://github.com/wilbur125/workout-tracker"
     },
     {
         id: "code-quiz",
