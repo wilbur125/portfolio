@@ -37,3 +37,33 @@ p {
 .breadcrumb:before {
   color: #1976d2;
 }
+
+@media (min-width: 993px) {
+  .card-home {
+    height: 450px;
+  }
+}
+
+@media (min-width: 1010px) {
+  .card-home {
+    height: 425px;
+  }
+} 
+
+@media (min-width: 1129px) {
+  .card-home {
+    height: 365px;
+  }
+}
+
+@media (min-width: 1142px) {
+  .card-home {
+    height: 360px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .card-home {
+    height: 315px;
+  }
+}
