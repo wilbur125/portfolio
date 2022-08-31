@@ -2,6 +2,10 @@
   background-color: #103e5b;
 }
 
+.active {
+  box-shadow: inset 0px -4px orange;
+}
+
 #page-footer {
   background-color: #9f3f36;
 }
@@ -26,8 +30,18 @@ p {
   font-size: large;
 }
 
+.boldify {
+  font-weight: 600;
+}
+
+#bottom {
+  position: absolute;
+  bottom:0;
+}
+
 #portfolio-card__heading {
  font-weight: bold;
+ text-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff, -2px 2px 2px #ffffff, 2px -2px 2px #ffffff;
 }
 
 #portfolio-card__description {
@@ -40,7 +54,7 @@ p {
 
 @media (min-width: 993px) {
   .card-home {
-    height: 450px;
+    height: 500px;
   }
 }
 
@@ -52,18 +66,18 @@ p {
 
 @media (min-width: 1129px) {
   .card-home {
-    height: 365px;
+    height: 375px;
   }
 }
 
 @media (min-width: 1142px) {
   .card-home {
-    height: 360px;
+    height: 375px;
   }
 }
 
 @media (min-width: 1300px) {
   .card-home {
-    height: 315px;
+    height: 325px;
   }
 }
