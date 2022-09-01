@@ -6,12 +6,15 @@
   <title>Matt Wilbur - Full Stack Developer</title>
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body class="light-blue lighten-5">
   <nav id="nav" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Wilbur125</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo roboto-slab-boldify">Wilbur125</a>
       <ul class="right hide-on-med-and-down">
         <li class="active"><a href="index.html">Home</a></li>
         <li><a href="assets/resume/matthew-wilbur-resume.pdf" target="_blank">Resume</a></li>
@@ -39,20 +42,21 @@
           <img class="responsive-img circle" src="./assets/images/profile-main.jpg" alt="Profile photo of the developer">
         </div>
 
-        <div class="col s12 l6">
+        <div class="col s12 l8">
           <div class="col s4 show-on-medium hide-on-small-and-down hide-on-large-only right">
             <!-- med, floats right -->
             <img class="responsive-img circle" src="./assets/images/profile-main.jpg" alt="Profile photo of the developer">
           </div>
-          <h1 class="header orange-text">Matt Wilbur</h1>
-          <p class="header light lead">Hello! My name is Matt Wilbur, I am a Full Stack Developer based in Seattle, WA. I am currently seeking a role as a Front End Web Developer.<br><br>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae enim sequi rem nostrum repellat, accusantium laborum dignissimos delectus a inventore quas libero explicabo suscipit officia repudiandae? Error, nam velit!</p>
+          <h1 class="header home-title-header">Matt Wilbur</h1>
+          <p class="header light lead custom-large-font">Hello! My name is Matt Wilbur, I am a Full Stack Developer based in Seattle, WA. I am currently seeking a role as a Front End Web Developer.<br><br>
+          I enjoy working with others to create solutions that are accessible and user-friendly. In my previous experience as a Food Scientist and Food Safety Professional, I adopted a philosophy to ensure that the solutions to our everyday challenges are concise and adaptable. I look forward to applying that same philosophy to my future career as a Front-End Developer.
+          </p>
 
         </div>
         
-        <div class="col s12 m6 show-on-large hide-on-med-and-down">
+        <div class="col s12 m6 l4 show-on-large hide-on-med-and-down">
           <!-- large -->
-          <img class="responsive-img circle" src="./assets/images/profile-main.jpg" alt="Profile photo of the developer">
+          <img class="responsive-img circle home-image-max-height" src="./assets/images/profile-main.jpg" alt="Profile photo of the developer">
         </div>
       </div>
     </div>
@@ -64,18 +68,22 @@
       <div class="row">
         <div class="col s12">
           <h3 class="header">Featured Projects</h3>
-          <p class="show-on-large hide-on-med-and-down light">Please feel free to explore my <a href="portfolio.html">portfolio</a> to see more examples of apps using other frameworks and libraries.</p>
+          <p class="show-on-large hide-on-med-and-down light custom-large-font">Please feel free to explore my <a class="hoverable-link" href="portfolio.html">portfolio</a> to see more examples of apps using other frameworks and libraries.</p>
         </div>
       </div>
       <div class="row">
         <!-- Card #1 -->
         <div class="col m12 l4">
           <a href="tinyhouse-app.html">
-            <div class="card-panel card card-home orange z-depth-2 hoverable">
+            <div class="card-panel card card-home orange z-depth-2 hoverable hoverable-card">
               <span class="white-text">
+                <div class="project-image-background center-align">
+                  <img class="responsive-img project-image" alt="Screenshot from project page" src="./assets/images/portfolio/thlogo.png">
+                </div>
                 <h5 class="">TinyHouse App</h5>
                 <p class="light">TinyHouse is a Full Stack React Masterclass offered by newline and utilizes React, Node, TypeScript, and GraphQL. This project is inspired by the functionality of AirBnb.</p>
-                <p class="boldify" id="bottom">Click here for details!</p>
+                <br>
+                <p class="med-boldify custom-large-font" id="bottom">Click here for details!</p>
               </span>
             </div>
         </a>
@@ -83,11 +91,15 @@
         <!-- Card #2 -->
         <div class="col m12 l4">
           <a href="workout-tracker.html">
-            <div class="card-panel card card-home orange z-depth-2 hoverable">       
+            <div class="card-panel card card-home orange z-depth-2 hoverable hoverable-card">       
               <span class="white-text">
+                <div class="project-image-background center-align">
+                  <img class="responsive-img project-image" alt="Screenshot from project page" src="./assets/images/portfolio/wtlogo.png">
+                </div>
                 <h5 class="">Workout Tracker</h5>
                 <p class="light">This app gives users the ability to track resistance and cardio workouts. The Fitness Dashboard will show the user's daily workouts for the current week using bar charts and pie charts.</p>
-                <p class="boldify" id="bottom">Click here for details!</p>
+                <br>
+                <p class="med-boldify custom-large-font" id="bottom">Click here for details!</p>
               </span>
             </div>
           </a>
@@ -95,11 +107,15 @@
         <!-- Card #3 -->
         <div class="col m12 l4">
           <a href="code-quiz.html">
-            <div class="card-panel card card-home orange z-depth-2 hoverable">       
+            <div class="card-panel card card-home orange z-depth-2 hoverable hoverable-card">       
               <span class="white-text">
+                <div class="project-image-background center-align">
+                  <img class="responsive-img project-image" alt="Screenshot from project page" src="./assets/images/portfolio/cqlogo.png">
+                </div>
                 <h5 class="">Code Quiz App</h5>
                 <p class="light">This single page application is a code quiz to test the user's knowledge of essential coding concepts. The quiz is gamified and prompts users to enter their initials when the quiz is completed.</p>
-                <p class="boldify" id="bottom">Click here for details!</p>
+                <br>
+                <p class="med-boldify custom-large-font" id="bottom">Click here for details!</p>
               </span>
             </div>
           </a>
@@ -107,7 +123,7 @@
       </div>
       <div class="row">
         <div class="col s12 show-on-small hide-on-med-and-up">
-          <p class=" light">Please feel free to explore my <a href="portfolio.html">portfolio</a> to see more examples of apps using other frameworks and libraries.</p>
+          <p class="custom-large-font light">Please feel free to explore my <a class="hoverable-link" href="portfolio.html">portfolio</a> to see more examples of apps using other frameworks and libraries.</p>
         </div>
       </div>
     <br><br>
@@ -119,22 +135,22 @@
       <div class="row">
         <div class="col l9 m6 s12">
           <h5 class="white-text">Thanks for stopping by!</h5>
-          <p class="grey-text text-lighten-4">Thank you for visiting my portfolio and taking a look at my featured projects. </p>
+          <p class="grey-text text-lighten-4">Thank you for visiting my portfolio and taking a look at my featured projects. Please feel free to connect with me on via my Contact Me page, Github, LinkedIn, or Domestika. Happy Hacking!</p>
         </div>
         <div class="col l3 offset-m3 m3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="contact.html">Contact Me</a></li>
-            <li><a class="white-text" href="https://github.com/wilbur125">GitHub</a></li>
-            <li><a class="white-text" href="https://www.linkedin.com/in/matthew-wilbur/">LinkedIn</a></li>
-            <li><a class="white-text" href="https://www.domestika.org/en/wilbur125">Domestika</a></li>
+            <li><a class="orange-text text-lighten-3 hoverable-link" href="contact.html">Contact Me</a></li>
+            <li><a class="orange-text text-lighten-3 hoverable-link" href="https://github.com/wilbur125">GitHub</a></li>
+            <li><a class="orange-text text-lighten-3 hoverable-link" href="https://www.linkedin.com/in/matthew-wilbur/">LinkedIn</a></li>
+            <li><a class="orange-text text-lighten-3 hoverable-link" href="https://www.domestika.org/en/wilbur125">Domestika</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container ">
-      &copy; 2022 <a class="orange-text text-lighten-3" href="http://wilbur125.dev">Wilbur125.dev</a>
+      &copy; 2022 <a class="orange-text text-lighten-3 hoverable-link" href="http://wilbur125.dev">Wilbur125.dev</a>
       </div>
     </div>
   </footer>
