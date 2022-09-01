@@ -47,6 +47,10 @@ body {
   box-shadow: inset 0px -4px orange;
 }
 
+a.breadcrumb.active.blue-text.text-darken-2 {
+  box-shadow: none;
+}
+
 .home-image-max-height {
   max-height: 400px;
 }
@@ -103,6 +107,19 @@ p.med-boldify:hover, .hoverable-link:hover {
 
 .breadcrumb:before {
   color: #1976d2;
+}
+
+.project-page-img {
+  border-radius: 1em;
+}
+
+.customize-project-button {
+  padding: 10px !important;
+}
+
+.customize-project-badge {
+  margin-left: 0px !important;
+  margin-right: 6px !important;
 }
 
 input[type=text]:not(.browser-default):focus:not([readonly]),
