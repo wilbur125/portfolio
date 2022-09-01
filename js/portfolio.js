@@ -38,18 +38,21 @@ const portfolio = document.querySelector("#portfolio-display");
 portfolio.innerHTML = projects.map(function(project) {
     return (
         `
-          <div class="col s12 l3">
-            <div class="card" id="portfolio-card">
-              <div class="card-image valign-wrapper">
-                <img class="responsive-img" src="${project.image}">
-                <span class="card-title black-text" id="portfolio-card__heading">${project.name}</span>
-                <a class="btn-floating halfway-fab waves-effect waves-light red" href="${project.id}.html"><i class="material-icons">more_horiz</i></a>
-              </div>
-              <div class="card-content">
-                <p id="portfolio-card__description">${project.cardDescription}</p>
-              </div>
+        <div class="col s12 m6 l3">
+          <a href="${project.id}.html">
+            <div class="card-panel card card-portfolio orange z-depth-2 hoverable hoverable-card">
+            <div class="project-image-background center-align">
+                <img class="responsive-img project-image" alt="Screenshot from project page" src="${project.image}">
+            </div> 
+              <span class="white-text">
+                <h5 class="">${project.name}</h5>
+                <p class="light">${project.cardDescription}</p>
+                <br>
+                <p class="med-boldify custom-large-font" id="bottom">Click here for details!</p>
+              </span>
             </div>
-          </div>
+          </a>
+        </div>
         `
     )
 }).join('');
