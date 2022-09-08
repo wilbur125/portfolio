@@ -51,6 +51,11 @@ a.breadcrumb.active.blue-text.text-darken-2 {
   box-shadow: none;
 }
 
+a.breadcrumb.active.blue-text.text-darken-2:hover, 
+a.breadcrumb.blue-text.text-darken-2:hover {
+  text-decoration: underline;
+}
+
 .home-image-max-height {
   max-height: 400px;
 }
