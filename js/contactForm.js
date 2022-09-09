@@ -1,5 +1,5 @@
 (function() {
-    emailjs.init('YK7n8jA-r6lU9QaXy');
+    emailjs.init('ZE7eFLbgPxZGrKRpl');
 })();
 
 window.onload = function () {
@@ -9,8 +9,10 @@ window.onload = function () {
         emailjs.sendForm('service_g62huhk', 'template_1t5mpla', this)
             .then(function() {
                 console.log('SUCCESS!');
+                alert("Message sent!");
             }, function(error) {
                 console.log('FAILED...', error);
+                alert("Something went wrong - please try again later!");
             });
             document.getElementById('contact-form').reset();
     });
