@@ -157,6 +157,9 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   .card-portfolio {
     height: 525px;
   }
+  .project-page-img-padding {
+    padding: 0px 0px 10px 20px !important;
+  }
 }
 
 @media (min-width: 675px) {
